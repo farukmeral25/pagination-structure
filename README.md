@@ -1,3 +1,3 @@
 # pagination_structure
 
-A new Flutter project.
+Pagination Structure Core Information
