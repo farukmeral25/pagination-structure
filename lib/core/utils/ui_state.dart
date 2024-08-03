@@ -13,6 +13,11 @@ class UIState<T> {
     //Firebase Exception gönder.
     //Exception Logger'larına gönder. Bilgilendir.
   }
+
+  bool get isIdle => status == UIStateStatus.idle;
+  bool get isLoading => status == UIStateStatus.loading;
+  bool get isSuccess => status == UIStateStatus.success;
+  bool get isError => status == UIStateStatus.error;
 }
 
 enum UIStateStatus { idle, loading, success, error }
